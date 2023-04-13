@@ -19,5 +19,5 @@ export const Rate = styled.span`
   text-align: left;
   font-size: 32px;
   font-weight: 500;
-  color: tomato;
+  color: var(--accent);
 `;

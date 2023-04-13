@@ -4,10 +4,10 @@
   --accent: #6a9bd8;
   --primary: #282828;
   --secondary: #858585;
-  --bg: #ebf5fc;
-  --good: rgba(96, 205, 74, 0.7);
-  --neutral: rgba(205, 185, 74, 0.7);
-  --bad: rgba(205, 87, 74, 0.7);
+  --bgc: #ebf5fc;
+  --good: rgba(55, 197, 26, 0.7);
+  --neutral: rgba(214, 124, 15, 0.7);
+  --bad: rgba(191, 42, 26, 0.7);
 }
 
 body {

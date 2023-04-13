@@ -5,7 +5,6 @@ export const Container = styled.div`
   margin-top: 20px;
   padding: 20px;
   width: 600px;
-  /* box-shadow: var(--main-shadow); */
   border-radius: 10px;
-  background-color: blue;
+  background-color: var(--bgc);
 `;

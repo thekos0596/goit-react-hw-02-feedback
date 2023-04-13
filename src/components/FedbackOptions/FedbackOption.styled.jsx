@@ -9,13 +9,13 @@ export const ButtonList = styled.ul`
 
 export const ButtonItem = styled.li`
   :hover:nth-of-type(1) button {
-    background-color: green;
+    background-color: var(--good);
   }
   :hover:nth-of-type(2) button {
-    background-color: orange;
+    background-color: var(--neutral);
   }
   :hover:nth-of-type(3) button {
-    background-color: red;
+    background-color: var(--bad);
   }
 `;
 
@@ -25,8 +25,9 @@ export const Button = styled.button`
   color: var(--accent);
   background-color: transparent;
   border-radius: 5px;
-  border: 1px solid grey);
+  border: 1px solid var(--secondary);
   cursor: pointer;
+  text-transform: capitalize;
   :hover {
     color: white;
     border: 1px solid transparent;
